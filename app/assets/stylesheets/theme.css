@@ -31410,3 +31410,8 @@ div.dataTables_wrapper div.dataTables_info {
     width: 64%;
   }
 }
+
+.only_woman {
+  background-color: #fee;
+  text-align: center;
+}

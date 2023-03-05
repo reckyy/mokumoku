@@ -81,6 +81,11 @@
           <h4 class="text-center">
             <%= l @event.held_at, format: :short %>
           </h4>
+          <div class="only_woman">
+            <% if @event.only_woman == "woman" %>
+              <p>女性限定</p>
+            <% end %>
+          </div>
           <hr />
           <div class="text-center">
             <% if logged_in? %>
