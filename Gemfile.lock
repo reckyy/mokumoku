@@ -369,6 +369,7 @@ DEPENDENCIES
   jb
   jbuilder (~> 2.7)
   kaminari!
+  launchy
   letter_opener_web
   listen (~> 3.3)
   pg
