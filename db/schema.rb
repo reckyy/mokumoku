@@ -78,7 +78,7 @@ ActiveRecord::Schema.define(version: 2023_02_27_124537) do
     t.integer "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "only_woman", default: 0
+    t.boolean "only_woman", default: false, null: false
     t.index ["prefecture_id"], name: "index_events_on_prefecture_id"
     t.index ["user_id"], name: "index_events_on_user_id"
   end

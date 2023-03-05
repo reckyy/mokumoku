@@ -9,7 +9,7 @@
       </h4>
       <p class="card-text"><%= event.content %></p>
       <div class="only_woman">
-        <% if event.only_woman == "woman" %>
+        <% if event.only_woman? %>
           <p>女性限定</p>
         <% end %>
       </div>

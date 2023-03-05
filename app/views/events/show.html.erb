@@ -82,7 +82,7 @@
             <%= l @event.held_at, format: :short %>
           </h4>
           <div class="only_woman">
-            <% if @event.only_woman == "woman" %>
+            <% if @event.only_woman? %>
               <p>女性限定</p>
             <% end %>
           </div>
